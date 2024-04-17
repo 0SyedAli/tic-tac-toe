@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Tic Tac Toe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tic Tac Toe game made with Reactjs. 
 
-## Available Scripts
+## Getting Started 🚀
 
-In the project directory, you can run:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### `npm start`
+### Prerequisites 📋
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+node@v10.16.0 or higher
+npm@6.9.0 or higher
+git@2.17.1 or higher
+```
 
-### `npm test`
+## How To Use 🔧
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+From your command line, first clone Tic-Tac-Toe:
 
-### `npm run build`
+```bash
+# Clone this repository
+$ git clone https://github.com/bilal-23/Tic-Tac-Toe
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Go into the repository
+$ cd Tic-Tac-Toe
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Remove current origin repository
+$ git remote remove origin
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Then you can install the dependencies either using NPM or Yarn:
 
-### `npm run eject`
+Using NPM:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Install dependencies
+$ npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Start development server
+$ npm start
+```
+Once your server has started, go to this url `http://localhost:8080/` and you will see the website running on a Development Server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<h2 align="center">
+  <img src="https://github.com/bilal-23/Tic-Tac-Toe/blob/master/examples/example-1.jpg" alt="TicTacToe" width="30%">
+</h2>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Screenshots
 
-## Learn More
+<h2 align="center">
+  <img src="https://github.com/bilal-23/Tic-Tac-Toe/blob/master/examples/example-2.jpg" alt="TicTacToe" width="30%">
+</h2>
+<h2 align="center">
+  <img src="https://github.com/bilal-23/Tic-Tac-Toe/blob/master/examples/example-5.jpg" alt="TicTacToe" width="30%">
+</h2>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies used 🛠️
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Webpack](https://webpack.js.org/concepts/) - Static module bundler
+- [ReactJS](https://reactjs.org) - Javascript library
+- CSS
 
-### Code Splitting
+## Status
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/75600296-89eb-4640-9e7e-fa87fba7ce76/deploy-status)](https://app.netlify.com/sites/tictactoe23/deploys)
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
